@@ -4,5 +4,22 @@
       "path": "."
     }
   ],
-  "settings": {}
+  "settings": {
+    "[python]": {
+      "editor.defaultFormatter": null,
+      "editor.formatOnPaste": false,
+      "editor.insertSpaces": true,
+      "editor.tabSize": 4
+    },
+    "python.linting.pycodestyleArgs": [
+      "--ignore=E501"
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "cSpell.words": [
+      "pycodestyle",
+      "pydocstyle"
+    ]
+  }
 }
